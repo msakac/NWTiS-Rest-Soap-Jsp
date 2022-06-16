@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.foi.nwtis.msakac</groupId>
+	<artifactId>msakac-projekt</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>msakac-projekt</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<modules>
+		<module>msakac-projekt_lib_03_1</module>
+		<module>msakac-projekt_lib_06_1</module>
+		<module>msakac-aplikacija_1</module>
+		<module>msakac-aplikacija_2</module>
+		<module>msakac-aplikacija_3</module>
+		<module>msakac-aplikacija_4</module>
+		<module>msakac-aplikacija_5</module>
+	</modules>  
+</project>

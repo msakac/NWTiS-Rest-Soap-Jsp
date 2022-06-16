@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+	background-color: #ADD8E6;
+	max-width: max-content;
+	margin: auto;
+}
+
+.stranice{
+	width: auto;
+	height: auto;S
+	display:inline-block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+	background-color: #6495ED;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
